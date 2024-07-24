@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&display=swap');
+
+
+.recharts-responsive-container {
+    margin: 0 auto;
+    margin-left: -20%;
+    font-family: "Karma", sans-serif;
+}
+
+.pie-chart-container {
+    margin-left: -20px; 
+    padding-top: 20%;
+}
+
+
+#PieChart_Design{
+    margin-left: -20%;
+    margin-top: 20px;
+}
