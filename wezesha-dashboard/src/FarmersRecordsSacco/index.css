@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&display=swap');
+
+.records-container {
+    font-family: 'Karma', sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .table-data{
+    font-weight: bold;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .search-container {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .search-container input {
+    width: 500px;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px solid #2a88bd;
+    border-radius: 8px;
+  }
+  .search-icon{
+    font-size: 30px;
+    top: 15px;
+    left: 75%;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  
+  .records-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  
+  .records-table td {
+    border-right: 1px solid black;
+    padding: 12px;
+    text-align: left;
+  }
+  .records-table th{
+    border: none;
+    padding: 12px;
+    text-align: left;
+
+  }
+  .records-table th {
+    background-color: #2a88bd;
+    color: white;
+  }
+  
+  .records-table tr{
+    background-color: #d9d9d9;
+  }
+ 
+  
+  
+  
