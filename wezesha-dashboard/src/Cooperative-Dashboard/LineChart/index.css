@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&display=swap');
+
+.transaction-history-chart {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    font-family: "Karma", sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transaction-history-chart .recharts-default-tooltip {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    border: 1px solid #ccc !important;
+    border-radius: 4px;
+    padding: 10px !important;
+  }
+  
+  .transaction-history-chart .recharts-cartesian-axis-tick-value {
+    font-size: 12px;
+  }
+  
+  .transaction-history-chart .recharts-legend-item-text {
+    font-size: 14px;
+  }
+  
+  .transaction-history-chart .recharts-line-dot {
+    stroke-width: 2;
+  }
+  
+  .transaction-history-chart .recharts-legend-item:nth-child(1) .recharts-surface {
+    fill: #4CAF50 !important;
+  }
+  
+  .transaction-history-chart .recharts-legend-item:nth-child(2) .recharts-surface {
+    fill: #FF5252 !important;
+  }
