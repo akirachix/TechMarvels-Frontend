@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&display=swap');
+
+.dashboard {
+    font-family: 'Karma', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .stats-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .stat-box {
+    background-color: #2a88bd;
+    color: white;
+    padding: 30px;
+    border-radius: 5px;
+    width: 22%;
+    text-align: center;
+  }
+  
+  .stat-box h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .stat-box p {
+    margin: 5px 0 0;
+    font-size: 20px;
+  }
+  
+  .search-container {
+    position: relative;
+    margin-bottom: 20px;
+   
+   
+  }
+  
+  .search-container input {
+    width: 500px;
+    padding: 15px;
+    margin-left: 28%;
+    font-size: 16px;
+    border: 1px solid #2a88bd;
+    border-radius: 8px;
+  }
+  .loan-search-icon{
+    font-size: 30px;
+    top: 12px;
+    left: 69%;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  
+  .loan-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .loan-table th, .loan-table td {
+    border:none;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .loan-table th {
+    background-color: #2a88bd;
+    color: white;
+  }
+  
+  .status {
+    font-weight: bold;
+  }
+  
+  .status.approved { color: green; }
+  .status.rejected { color: red; }
+  .status.pending { color: blue; }
+  
+  .action-button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .action-button.delete { color: black; }
+  .action-button.approve { color: #2a88bd;  }
+  
+  .pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .next-button {
+    padding: 10px 15px;
+    color: #2a88bd;
+    border: none;
+    cursor: pointer;
+  }
+  
